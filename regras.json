@@ -1,0 +1,15 @@
+{
+    "versao": "1.2.0-JSON",
+    "regras": {
+        "regra_custo_minimo": {
+            "nome": "Regra 1: Custo Mínimo (Passo 1)",
+            "descricao": "O preço mais baixo ofertado deve ser maior ou igual ao Custo de Aquisição (CAC).",
+            "limite": 1.0
+        },
+        "regra_acessibilidade_rpc": {
+            "nome": "Regra 4: Acessibilidade RPC (Passo 4)",
+            "descricao": "O Preço Mensal não deve exceder 5% da Renda Per Capita Mínima da área (RPC Máxima).",
+            "limite": 0.05
+        }
+    }
+}
